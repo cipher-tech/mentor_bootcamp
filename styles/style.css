@@ -1,0 +1,27 @@
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 1px solid rgb(184, 28, 232);
+}
+
+.main-child{
+    border: 1px solid rgb(28, 115, 232);
+    color: rgb(28, 115, 232);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.main:hover{
+    background-color: rgb(0 0 0)
+}
+
+.main:hover .child1{
+    background-color: rgb(255 255 255)
+}
+.main:hover .child2{
+    background-color: rgb(222, 224, 136)
+}
